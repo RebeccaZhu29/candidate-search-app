@@ -52,7 +52,6 @@ const CandidateSearch = () => {
     }
   };
 
-  // biome-ignore lint/correctness/useExhaustiveDependencies: Dependency array is correct
   useEffect(() => {
     searchForUsers();
     searchForSpecificUser(currentUser.login || '');
